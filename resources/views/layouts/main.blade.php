@@ -11,7 +11,7 @@
 <body>
     @include('includes.header')
 
-    <main class="main-bg mt-5">
+    <main class="mt-5">
         @yield('main-content')
     </main>
 
