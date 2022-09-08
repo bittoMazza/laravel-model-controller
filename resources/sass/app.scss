@@ -1,2 +1,12 @@
 //
 @import '~bootstrap/scss/bootstrap.scss';
+@import './partials/header.scss';
+@import './partials/cardMovie.scss';
+
+.main-bg{
+    background-color: #061c4f90;
+}
+
+.cards-container{
+    padding-top: 50px;
+}

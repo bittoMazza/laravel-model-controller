@@ -12627,3 +12627,50 @@ fieldset:disabled .btn {
   }
 }
 
+header {
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+header nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+header ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 10 10px;
+  margin: 0 10px;
+  font-size: 18px;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+header .netflix-logo {
+  width: 150px;
+}
+
+.card-movie {
+  width: 400px;
+  padding: 20px 25px;
+  border: 3px solid black;
+  border-radius: 10px;
+  color: whitesmoke;
+}
+
+.main-bg {
+  background-color: rgba(6, 28, 79, 0.5647058824);
+}
+
+.cards-container {
+  padding-top: 50px;
+}
+

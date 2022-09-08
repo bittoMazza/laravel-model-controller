@@ -1,0 +1,28 @@
+header{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    nav ul{
+      padding: 0;
+      margin: 0;
+    }
+    ul li{
+      display: inline-block;
+      list-style: none;
+      padding: 10 10px;
+      margin: 0 10px;
+      font-size: 18px;
+
+      a{
+        text-decoration: none;
+        color: white;
+      }
+    }
+    .netflix-logo{
+      width:150px;
+    }
+
+}
